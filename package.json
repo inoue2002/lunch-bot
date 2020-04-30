@@ -1,0 +1,27 @@
+{
+  "name": "linebot_tmplate",
+  "version": "1.0.0",
+  "description": "git clone xxxxxxx  する",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youkan2002/LINEbot-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youkan2002/LINEbot-template/issues"
+  },
+  "homepage": "https://github.com/youkan2002/LINEbot-template#readme",
+  "dependencies": {
+    "@line/bot-sdk": "^6.8.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-cron": "^2.0.3"
+  }
+}

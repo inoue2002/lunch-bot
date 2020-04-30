@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "name": "LINEbot-temple",
+  "builds": [{ "src": "index.js", "use": "@now/node" }],
+  "routes": [
+      { "src": "/webhook", "dest": "index.js" }
+  ]
+}
